@@ -2,6 +2,8 @@ import type { Metadata, ResolvingMetadata } from "next";
 import { Lexend } from "next/font/google";
 import { createClient } from "@/prismicio";
 import "./globals.css";
+import Header from "@/components/header/Header";
+import Footer from "@/components/footer/Footer";
 
 const lexend = Lexend({ subsets: ["latin"] });
 
@@ -29,9 +31,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${lexend.className}`}>
-        <header>Header</header>
+        <Header />
         {children}
-        <footer>Footer</footer>
+        <Footer />
       </body>
     </html>
   );
