@@ -5,7 +5,10 @@ import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 
-const lexend = Lexend({ subsets: ["latin"] });
+const lexend = Lexend({
+  subsets: ["latin"],
+  weight: "300",
+});
 
 export async function generateMetadata(): Promise<Metadata> {
   const client = createClient();
