@@ -45,7 +45,7 @@ const Testimonials = async ({
         {testimonials.map((item, index) => (
           <div
             key={index}
-            className="border bg-white shadow-lg rounded-lg px-8 md:px-14 py-10 md:py-16"
+            className=" bg-white shadow-lg rounded-lg px-8 md:px-14 py-10 md:py-16 hover:bg-[#fdf0d5]"
           >
             <PrismicRichText field={item?.data.quote} components={components} />
             <div className="flex items-center mt-6">
