@@ -9,8 +9,10 @@
 					{
 						"type": "heading2",
 						"content": {
-							"text": "Lovely"
-						}
+							"text": "Robust Features",
+							"spans": []
+						},
+						"direction": "ltr"
 					}
 				]
 			}
@@ -23,8 +25,8 @@
 						"icon",
 						{
 							"__TYPE__": "FieldContent",
-							"value": "hourglass",
-							"type": "Select"
+							"type": "Select",
+							"value": "hourglass"
 						}
 					],
 					[
@@ -35,8 +37,10 @@
 								{
 									"type": "heading3",
 									"content": {
-										"text": "Steady"
-									}
+										"text": "Scheduling",
+										"spans": []
+									},
+									"direction": "ltr"
 								}
 							]
 						}
@@ -49,8 +53,145 @@
 								{
 									"type": "paragraph",
 									"content": {
-										"text": "Sint tempor cillum consequat magna occaecat nisi nostrud deserunt aliqua ullamco magna nostrud proident veniam."
-									}
+										"text": "Incorporate wellness practices into your daily plan with reminders for meditation, hydration, and more.",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"icon",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "bargraph"
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "Analytics",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Incorporate wellness practices into your daily plan with reminders for meditation, hydration, and more.",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"icon",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "calendar"
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "Integrator",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Incorporate wellness practices into your daily plan with reminders for meditation, hydration, and more.",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"icon",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "clover"
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "Focus ",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Use the built-in Pomodoro timer for focused work sessions with customizable intervals.",
+										"spans": []
+									},
+									"direction": "ltr"
 								}
 							]
 						}
