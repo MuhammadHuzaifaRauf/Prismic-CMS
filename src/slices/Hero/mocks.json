@@ -3,57 +3,28 @@
 		"__TYPE__": "SharedSliceContent",
 		"variation": "default",
 		"primary": {
-			"body": {
-				"__TYPE__": "StructuredTextContent",
-				"value": [
-					{
-						"type": "paragraph",
-						"content": {
-							"text": "Officia sit nisi excepteur quis velit tempor."
-						}
-					}
-				]
-			},
-			"button_text": {
-				"__TYPE__": "FieldContent",
-				"value": "held",
-				"type": "Text"
-			},
 			"image": {
 				"origin": {
-					"id": "main",
-					"url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa",
-					"width": 2747,
-					"height": 4120
+					"id": "1osIUArK5oA",
+					"url": "https://images.unsplash.com/photo-1555532538-dcdbd01d373d?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw0fHxrZXlib2FyZHxlbnwwfHx8fDE3MTQ5NzE1MzF8MA&ixlib=rb-4.0.3&q=85",
+					"width": 6000,
+					"height": 3612
 				},
-				"url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa",
-				"width": 2747,
-				"height": 4120,
+				"url": "https://images.unsplash.com/photo-1555532538-dcdbd01d373d?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw0fHxrZXlib2FyZHxlbnwwfHx8fDE3MTQ5NzE1MzF8MA&ixlib=rb-4.0.3&q=85",
+				"width": 6000,
+				"height": 3612,
 				"edit": {
+					"background": "transparent",
 					"zoom": 1,
 					"crop": {
 						"x": 0,
 						"y": 0
-					},
-					"background": "transparent"
+					}
 				},
 				"credits": null,
-				"alt": null,
+				"alt": "black computer keyboard",
 				"__TYPE__": "ImageContent",
 				"thumbnails": {}
-			},
-			"heading": {
-				"__TYPE__": "StructuredTextContent",
-				"value": [
-					{
-						"type": "heading1",
-						"content": {
-							"text": "Flowrise ",
-							"spans": []
-						},
-						"direction": "ltr"
-					}
-				]
 			},
 			"button_link": {
 				"__TYPE__": "LinkContent",
@@ -62,6 +33,37 @@
 					"url": "https://prismic.io",
 					"target": "_blank"
 				}
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Unleash your potential by harmonizing your daily tasks and habits with your unique energy rhythms",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Productivity that flows\nwith your life.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"button_text": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Try for free"
 			}
 		},
 		"items": []
@@ -70,33 +72,6 @@
 		"__TYPE__": "SharedSliceContent",
 		"variation": "horizontal",
 		"primary": {
-			"heading": {
-				"__TYPE__": "StructuredTextContent",
-				"value": [
-					{
-						"type": "heading1",
-						"content": {
-							"text": "Daily"
-						}
-					}
-				]
-			},
-			"body": {
-				"__TYPE__": "StructuredTextContent",
-				"value": [
-					{
-						"type": "paragraph",
-						"content": {
-							"text": "Do reprehenderit do ea culpa eu commodo est qui."
-						}
-					}
-				]
-			},
-			"button_text": {
-				"__TYPE__": "FieldContent",
-				"value": "likely",
-				"type": "Text"
-			},
 			"button_link": {
 				"__TYPE__": "LinkContent",
 				"value": {
@@ -106,26 +81,57 @@
 			},
 			"image": {
 				"origin": {
-					"id": "main",
-					"url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
-					"width": 5848,
-					"height": 3899
+					"id": "oA7MMRxTVzo",
+					"url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyMnx8a2V5Ym9hcmR8ZW58MHx8fHwxNzE0OTcxNTMxfDA&ixlib=rb-4.0.3&q=85",
+					"width": 4160,
+					"height": 3120
 				},
-				"url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
-				"width": 5848,
-				"height": 3899,
+				"url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyMnx8a2V5Ym9hcmR8ZW58MHx8fHwxNzE0OTcxNTMxfDA&ixlib=rb-4.0.3&q=85",
+				"width": 4160,
+				"height": 3120,
 				"edit": {
+					"background": "transparent",
 					"zoom": 1,
 					"crop": {
 						"x": 0,
 						"y": 0
-					},
-					"background": "transparent"
+					}
 				},
 				"credits": null,
-				"alt": null,
+				"alt": "closeup photo of black and white Apple keyboard keys",
 				"__TYPE__": "ImageContent",
 				"thumbnails": {}
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Productivity that flows\nwith your life.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Unleash your potential by harmonizing your daily tasks and habits with your unique energy rhythms",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"button_text": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Try for free"
 			}
 		},
 		"items": [

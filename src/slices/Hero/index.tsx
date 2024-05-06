@@ -2,17 +2,16 @@ import Button from "@/components/button/Button";
 import { Content } from "@prismicio/client";
 import { PrismicNextImage } from "@prismicio/next";
 import { PrismicRichText, SliceComponentProps } from "@prismicio/react";
-import { ReactNode } from "react";
 
 const components = {
-  heading1: ({ children }: { children: ReactNode }) => (
+  heading1: ({ children }: { children: any }) => (
     <h1 className="text-5xl md:text-7xl font-semibold leading-tight tracking-tight font-display text-slate-700">
       {children}
     </h1>
   ),
 
-  paragraph: ({ children }: { children: ReactNode }) => (
-    <p className=" max-w-md text-2xl text-center font-normal leading-10 text-slate-600 mb-4 md:mb-8">
+  paragraph: ({ children }: { children: any }) => (
+    <p className=" max-w-md text-2xl  font-normal leading-10 text-slate-600 mb-4 md:mb-8">
       {children}
     </p>
   ),
@@ -61,8 +60,8 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
           data-slice-variation={slice.variation}
         >
           <div className="mx-auto w-full max-w-6xl">
-            <div className="grid grid-cols-1 md:grid-cols-2 place-items-center text-center">
-              <div className="grid grid-rows-[1fr,auto,auto] gap-8 h-fit">
+            <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
+              <div className="grid grid-rows-[1fr,auto,auto] gap-2 h-fit">
                 <PrismicRichText
                   field={slice.primary.heading}
                   components={components}
