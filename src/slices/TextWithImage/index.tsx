@@ -20,15 +20,9 @@ const components: JSXMapSerializer = {
   ),
 };
 
-/**
- * Props for `TextWithImage`.
- */
 export type TextWithImageProps =
   SliceComponentProps<Content.TextWithImageSlice>;
 
-/**
- * Component for "TextWithImage" Slices.
- */
 const TextWithImage = ({ slice }: TextWithImageProps): JSX.Element => {
   return (
     <Bounded
