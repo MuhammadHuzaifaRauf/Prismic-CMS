@@ -1,23 +1,43 @@
+import Bounded from "@/components/bounded/Bounded";
+import Button from "@/components/button/Button";
+import Heading from "@/components/heading/Heading";
 import { Content } from "@prismicio/client";
-import { SliceComponentProps } from "@prismicio/react";
+import {
+  SliceComponentProps,
+  JSXMapSerializer,
+  PrismicRichText,
+} from "@prismicio/react";
 
-/**
- * Props for `CallToAction`.
- */
+const components: JSXMapSerializer = {
+  heading2: ({ children }) => (
+    <Heading as="h2" size="sm" className="font-semibold text-center mb-4">
+      {children}
+    </Heading>
+  ),
+  paragraph: ({ children }) => (
+    <p className="text-center text-slate-600 mb-8">{children}</p>
+  ),
+};
+
 export type CallToActionProps = SliceComponentProps<Content.CallToActionSlice>;
 
-/**
- * Component for "CallToAction" Slices.
- */
 const CallToAction = ({ slice }: CallToActionProps): JSX.Element => {
   return (
-    <section
+    <Bounded
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
-      Placeholder component for call_to_action (variation: {slice.variation})
-      Slices
-    </section>
+      <div className="max-w-4xl m-auto shadow-xl md:px-12 px-4 py-12 grid place-items-center rounded-lg bg-gradient-to-tr from-cyan-50 via-white to-emerald-50">
+        <PrismicRichText
+          field={slice.primary.heading}
+          components={components}
+        />
+        <PrismicRichText field={slice.primary.body} components={components} />
+        <Button field={slice.primary.button_link}>
+          {slice.primary.button_text}
+        </Button>
+      </div>
+    </Bounded>
   );
 };
 
